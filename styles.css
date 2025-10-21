@@ -52,7 +52,7 @@ body {
 .logo-circle {
   width: 40px;
   height: 40px;
-  background: linear-gradient(135deg, #f18d8d, #e61a1a);
+  background: linear-gradient(135deg, #6b0c0c, #e61a1a);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -60,6 +60,12 @@ body {
   color: #fff;
   font-weight: 700;
   font-size: 1.2rem;
+}
+
+.p-logo{
+    font-weight: 500;
+    color: #c72424;
+    font-style: italic;
 }
 
 .logo-text p:first-child { font-weight: 600; }
