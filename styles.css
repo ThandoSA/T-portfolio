@@ -269,9 +269,27 @@ section h2::after {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.experience-card:hover,
-.project-card:hover,
+.contact-card a {
+  color: #e61a1a;
+  box-shadow: #f18d8d;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: larger;
+}
+
+.contact-img {
+  width: 40px;
+  height: 40px;
+}
+
 .contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgb(199, 27, 27);
+    cursor: pointer;
+}
+
+.experience-card:hover,
+.project-card:hover{
   transform: translateY(-5px);
   box-shadow: 0 15px 35px rgba(0,0,0,0.1);
 }
