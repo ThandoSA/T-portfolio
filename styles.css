@@ -66,6 +66,8 @@ body {
     font-weight: 500;
     color: #c72424;
     font-style: italic;
+    justify-content: left;
+    cursor: not-allowed;
 }
 
 .logo-text p:first-child { font-weight: 600; }
@@ -290,7 +292,7 @@ section h2::after {
 
 .contact-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 15px 35px rgb(199, 27, 27);
+    box-shadow: 0 15px 35px rgb(138, 46, 46);
     cursor: pointer;
 }
 
